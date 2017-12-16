@@ -174,7 +174,7 @@ public class ParkingLot extends BaseParkingLot implements ParkingLotService {
                     }
                 }
             } else {
-                System.out.println(ParkingConstants.ErrorMessages.REGISTERED_NO_NOT_FOUND_FOR_COLOR + color);
+                System.out.println(ParkingConstants.ErrorMessages.NOT_FOUND);
                 System.out.println();
             }
         }
@@ -207,7 +207,7 @@ public class ParkingLot extends BaseParkingLot implements ParkingLotService {
                 }
                 System.out.println();
             } else {
-                System.out.println(ParkingConstants.ErrorMessages.SLOT_NUMBER_NOT_FOUND_FOR_COLOR + color);
+                System.out.println(ParkingConstants.ErrorMessages.NOT_FOUND);
                 System.out.println();
             }
         }
@@ -225,7 +225,7 @@ public class ParkingLot extends BaseParkingLot implements ParkingLotService {
             } else if (this.registereddNoSlotMap.containsKey(registeredNo)) {
                 System.out.println(this.registereddNoSlotMap.get(registeredNo));
             } else {
-                System.out.println(ParkingConstants.ErrorMessages.SLOT_NUMBER_NOT_FOUND_FOR_REGISTERED_NO + registeredNo);
+                System.out.println(ParkingConstants.ErrorMessages.NOT_FOUND);
                 System.out.println();
             }
         }

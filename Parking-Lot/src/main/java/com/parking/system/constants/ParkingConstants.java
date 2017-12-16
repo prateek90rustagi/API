@@ -25,11 +25,7 @@ public interface ParkingConstants {
 
         String PARKING_LOT_EMPTY = "Parking lot is empty";
 
-        String REGISTERED_NO_NOT_FOUND_FOR_COLOR = "Registered Plate number Not found with given color ";
-
-        String SLOT_NUMBER_NOT_FOUND_FOR_COLOR = "Slot Number not found for car's with color ";
-
-        String SLOT_NUMBER_NOT_FOUND_FOR_REGISTERED_NO = "Slot number Not found for car with given registered number ";
+        String NOT_FOUND = "Not found";
     }
 
 }
