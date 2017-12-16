@@ -15,8 +15,10 @@ package com.parking.system.api;
  */
 public abstract class Vehicle {
 
+    // Registered plate number of the vehicle
     protected String registeredNumber;
 
+    // Color of the vehicle
     protected String color;
 
     /**
